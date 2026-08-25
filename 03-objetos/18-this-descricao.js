@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+    nome: "Desenvolvimento de Sistemas",
+    modalidade: "Back-End",
+
+     descrever(){
+        console.log(`O ${this.nome}, no momento, está realizando, em sala de aula programações de ${this.modalidade}`)
+     }
+}
+console.log(curso.descrever())

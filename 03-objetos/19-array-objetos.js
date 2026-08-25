@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos =[
+    {titulo: "Adop Me", plataforma: "Roblox", classificação: "Livre"},
+    {titulo: "EpicMiniGames", plataforma: "Roblox", classificação: "Livre"},
+    {titulo: "BedWars", plataforma: "Minecraft", classificação:"Livre"}
+]
+
+jogos.forEach((jogos) => {
+    console.log(jogos.titulo,  jogos.plataforma)
+});
