@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function consumo(distancia, litros){
+    return distancia/litros
+}
+
+console.log(consumo(67, 42))
