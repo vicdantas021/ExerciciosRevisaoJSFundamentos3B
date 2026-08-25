@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const numeros = [20, 35, 40, 55]
+console.log(numeros)
+
+const soma = numeros.map((num)=> num + 5)
+console.log(soma)
