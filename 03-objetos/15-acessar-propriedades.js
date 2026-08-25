@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const paciente = {
+    nome: "Bob",
+    idade: 6,
+    convenio: "Gru Saúde"
+}
+
+console.log(paciente.nome)
+console.log(paciente.convenio)
