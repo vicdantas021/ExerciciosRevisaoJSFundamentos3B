@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const cliente = {nome: "Valdete", telefone: 11982616217}
+
+const atualizado = {...cliente, fidelidade: "Ouro" }
+
+console.log(atualizado);
