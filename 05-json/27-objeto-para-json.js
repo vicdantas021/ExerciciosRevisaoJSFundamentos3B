@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const reserva = {codigo:2121, hospede: "Luisa", numeroNoites: 4};
+
+const json = JSON.stringify(reserva);
+console.log(json);
