@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const converter = function(minutos){
+    return minutos * 60;
+}
+
+console.log(converter(6)+ " segundos")

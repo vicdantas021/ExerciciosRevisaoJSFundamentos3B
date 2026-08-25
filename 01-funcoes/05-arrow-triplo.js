@@ -4,3 +4,9 @@
 //
 // Escreva sua solução abaixo:
 
+
+const arrowFunction = (a) => {
+    return a * 3;
+}
+
+console.log(arrowFunction(12))
