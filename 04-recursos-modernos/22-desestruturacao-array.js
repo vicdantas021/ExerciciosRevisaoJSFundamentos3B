@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const linguagem = ["JavaScript", "C#", "Phyton"]
+
+const [primeira, segunda, terceira] = linguagem;
+console.log(linguagem)
