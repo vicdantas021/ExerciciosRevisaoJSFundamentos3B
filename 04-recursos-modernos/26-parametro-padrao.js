@@ -9,4 +9,4 @@ function calcularEntrega(valor, taxa){
      taxa = 10
      return valor + taxa
 }
-console.log(calcularEntrega(3))
+console.log("A taxa da entrega é de: " + calcularEntrega(3))
