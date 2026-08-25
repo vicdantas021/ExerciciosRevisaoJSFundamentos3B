@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const quantidades = [4, 2, 7, 1, 6]
+
+const estoque = quantidades.every((quantidade) => quantidade > 0)
+console.log(estoque)
